@@ -6,3 +6,15 @@ nav a:hover { color: #3498db; }
 .container { width: 80%; margin: auto; overflow: hidden; padding: 20px; background: white; min-height: 80vh; margin-top: 20px; border-radius: 8px; }
 h1 { color: #2c3e50; }
 .card { border: 1px solid #ddd; padding: 15px; margin: 10px 0; border-radius: 5px; }
+.banner {background-color:rgb(173, 165, 165);width:15cm;padding:70px;}
+.content {float:left;width:d40;padding:30px;}
+.sidebar {float:left;width:30%;padding:20px;border-left:1px solid;}
+.row::after {content:"";clear: ;display:;}
+.sidebar {float:left;width:30%;padding:30px;border-left:#f4f4f4;}
+@media screen and (max-width:900px){ .content,sidebar{width:30%;float:right;border-bottom:#ddd 1px solid;}}
+.footer {background:#f4f4f4;color:azure;text-align: center;padding:10px;font-size:small;}
+.table {width:80%;border-collapse:collapse;border:#3498db 1px solid;margin:20px auto;}
+.table th {border:#ddd 1px solid;padding:8px;text-align:left;}
+.table td {border:#ddd 1px solid;padding:8px;text-align:left;}
+.table tr:nth-child(even) {background:#524444;}  
+.table tr:hover {background:#89b063;}   
