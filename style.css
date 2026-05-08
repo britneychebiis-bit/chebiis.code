@@ -17,4 +17,7 @@ h1 { color: #2c3e50; }
 .table th {border:#ddd 1px solid;padding:8px;text-align:left;}
 .table td {border:#ddd 1px solid;padding:8px;text-align:left;}
 .table tr:nth-child(even) {background:#524444;}  
-.table tr:hover {background:#89b063;}   
+.table tr:hover {background:#89b063;} 
+.team img{overflow:hidden;text-align:center;transition:100%;}  
+.team img:hover{width:10px;height:20px;transition: transform 0.3s;padding: 5px;}  
+.team_member {display:block;text-align:center;margin:10px;color:#524444;font-style: italic;text-transform: lowercase;}
